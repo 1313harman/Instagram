@@ -19,10 +19,6 @@ function HomePage() {
 
 
   const handleShowMore = (index) =>{
-    // setShowMore((prev) => ({
-    //   ...prev,
-    //   [index]: !prev[index],
-    // }))
         setShowMore((prev)=>{
           if(prev[index]){
             return {...prev,[index]:false}
